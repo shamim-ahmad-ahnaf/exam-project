@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+
+:root {
+    --heading-font: "Overlock", sans-serif;
+    --body-font: "Lato", sans-serif;
+}
+
+
+ul {
+    list-style: none;
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.icon {
+
+    border-left: 2px solid rgb(92, 87, 86);
+    height: 20px;
+    margin-left: 25px;
+    padding-left: 10px;
+}
+
+
+
+/* .collapse ul li a:hover {
+    background-color: #EA2027;
+
+} */
+
+.header {
+    background-image: url(../images/Group\ 19.png);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.img {
+    margin-top: 70px;
+    width: 100%;
+}
+
+
+
+.container {
+
+    margin-top: 50px;
+}
+
+.text-section h1 {
+    font-family: var(--heading-font);
+    font-size: 48px;
+    height: 148px;
+    width: 445px;
+    color: #1B1B1B;
+    margin-left: 50px;
+}
+
+.text-section p {
+    font-family: var(--body-font);
+    height: 185px;
+    width: 265px;
+    font-size: 15px;
+    color: #666666;
+    margin-left: 55px;
+
+}
+
+.menu-section {
+    height: 248px;
+    width: 220px;
+    margin-right: 50px;
+    background-color: #1B1B1B;
+    margin-top: 130px;
+    background-image: url(../images/umbrala.png);
+
+}
+
+.hu {
+    margin-left: 70px;
+    max-width: 100%;
+    height: auto;
+}
+
+.ha {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+}
+
+
+
+.text-section button {
+    width: 195px;
+    height: 57px;
+    background-color: #E7272D;
+    border: none;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+.menu-item h3 {
+    font-size: 16px;
+    height: 19px;
+    width: 80px;
+    color: aliceblue;
+    margin-left: 20px;
+}
+
+.menu-item p {
+    font-size: 13px;
+    height: 33px;
+    width: 208px;
+    color: aliceblue;
+    margin-left: 20px;
+}
+
+.brand h2 {
+    font-family: var(--heading-font);
+    font-size: 48px;
+    height: 64px;
+    color: #1B1B1B;
+}
+
+
+.brand ul {
+    width: 828px;
+    height: 85px;
+    border: 1px solid black;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 250px;
+    border-radius: 10PX;
+
+}
+
+.brand ul li a {
+    color: #1B1B1B;
+    font-size: 18px;
+    height: 22px;
+}
+
+
+
+/* .brand ul li a:hover {
+    background-color: #ef0303;
+
+} */
+
+
+@media (max-width: 575.98px) {
+    .brand {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .menu-section h3 {
+        font-size: 18px;
+    }
+}
+
+
+.h5 {
+    font-family: var(--body-font);
+    font-size: 22px;
+    height: 27px;
+    width: 37px;
+}
+
+
+.card-body {
+    font-family: var(--body-font);
+    width: 220px;
+    height: 55px;
+    background-color: #fff;
+    margin-top: 160px;
+    position: absolute;
+    border-top-right-radius: 5px;
+}
+
+/*  
+.card  a:hover {
+   background-color: #E7272D;
+   color: aqua;
+} */
+
+
+
+
+
+
+.icon-card i {
+    font-size: 16px;
+    color: #E7272D;
+    height: 19px;
+}
+
+.card-body i {
+    color: #E7272D;
+} 
+
+.card-body {
+    margin-top: 208px;
+
+}
+
+
+.table {
+    margin-top: 40px;
+}
+
+.table h2 {
+    font-family: var(--heading-font);
+    font-size: 48px;
+    height: 125px;
+    width: 545px;
+    color: #fff;
+
+}
+
+
+.table p {
+    font-family: var(--body-font);
+    font-size: 18px;
+    width: 545px;
+    height: 110px;
+    color: #fff;
+}
+
+.s {
+    color: #fff;
+}
+
+.p {
+    color: #fff;
+}
+
+.btn-2 {
+    height: 48px;
+    width: 185px;
+    background-color: #E7272D;
+    color: #fff;
+    border: none;
+    border-radius: 5PX;
+}
+
+
+
+
+.bc-img {
+    background-image: url(../images/image\ 9.png);
+    margin-bottom: 20px;
+}
+
+
+.sha {
+    background-color: #fff;
+    height: 400px;
+    width: 550px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: 100%;
+    border-radius: 15px;
+}
+
+.area {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.address i {
+    width: 35px;
+    height: 35px;
+
+}
+
+
+.footer {
+    background-color: #1B1B1B;
+    color: #fff;
+    padding: 40px 0;
+    margin-top: 30px;
+    /* margin-bottom: 10px; */
+    font-family: var(--body-font);
+    background-image: url(../images/umbrala.png);
+    background-repeat: no-repeat;
+}
+
+.social-icons a i {
+    background-color: #666666;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 35px;
+    /* color: #1877F2; */
+}
+
+
+.footer .line {
+    width: 450px;
+    border: 1px solid #FFF;
+    height: 0px;
+    margin-top: 30px;
+}
+
+.footer img {
+    padding: 0 20px;
+}
+
+.footer a {
+    color: #FFF;
+    text-decoration: none;
+    font-family: var(--body-font);
+
+}
+
+.footer a:hover {
+    color: #E7272D;
+    font-family: var(--body-font);
+    
+}
+
+.footer .footer-logo img {
+    max-width: 100px;
+}
+
+.footer .social-icons a {
+    margin-right: 10px;
+    font-size: 18px;
+    font-family: var(--body-font);
+}
+
+
+.fau {
+    background-color: #262525;
+    height: 35px;
+    width: 1100px;
+    font-family: var(--body-font);}
